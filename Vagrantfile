@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Default Ubuntu 17.10 Box 
   config.vm.box = "bento/ubuntu-17.10"
-  config.vm.hostname = "ubuntu"
+  config.vm.hostname = "IntroOS"
 
   # Using VirtualBox Guest Additions 5.2.7 since 5.2.6 fails to load GUI
   # config.vbguest.iso_path = "https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_5.2.7-120528.iso"
